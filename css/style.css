@@ -684,7 +684,63 @@ footer a:hover {
 
 	/*-Index----------------------------------------*/
 	.logo-container {
-		height: 20vh;
+		height: 15vh;
+	}
+
+	/*-Official-Rules---------------------------------------------*/
+	.rules {
+		border: 1.5vh solid var(--clr-secondary);
+		font-size: 1rem;
+	}
+
+	.logo-rules {
+		width: 60vh;/*Ver esto*/
+		padding-top: 1vh;
+	}
+
+	.introduction-div1,
+	.introduction-div2 {
+		margin: 1vh;
+		text-wrap: balance;
+	}
+
+	.rules h2 {
+		font-size: 1.2rem;
+	}
+
+	.text {
+		margin: 0 1.5vw;
+	}
+
+	.order-list {
+		margin: 0 1.5vw;
+	}
+
+	.order-list li::before {
+		font-size: 1.3rem;
+	}
+
+	.unorder-list {
+		margin: 0 1.5vw;
+	}
+
+	.rules h3 {
+		font-size: 1.4rem;
+	}
+
+	.rules h4 {
+		padding: 0.5vh 1vw;
+		margin: 0 1.5vw;
+		font-size: 1.2rem;
+	}
+
+	.rules h5 {
+		margin: 0 1.5vw;
+		font-size: 1.2rem;
+	}
+
+	.rules h6 {
+		font-size: 1.2rem;
 	}
 
 	/*-Tiles-Counter--------------------------------*/

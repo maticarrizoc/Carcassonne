@@ -446,11 +446,14 @@ function resetTimers() {
     }
 
 }
+
 document.getElementById('navbar-timers').style.display = 'none';
+
 function openMenu(){
     document.getElementById('navbar-timers').style.display = 'block';
     pausePlayBothTimers();
 }
+
 function closeMenu() {
     document.getElementById('navbar-timers').style.display = 'none';
 }
