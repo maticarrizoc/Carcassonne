@@ -577,6 +577,10 @@ footer a:hover {
 	border-left: 15px solid var(--clr-primary);
 }
 
+.menu-timers {
+	background: var(--clr-primary);
+}
+
 .navbar-timers {
 	position: absolute;
 	top: 0;
