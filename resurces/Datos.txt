@@ -1,0 +1,9 @@
+Paleta de colores:
+FFFDEE (amarillo claro - rules)
+9adaa9 (verde claro - rules)
+E0FBFC (celeste)
+003554 (azul)
+E3B23C (amarillo - escudoMza)
+004D74 (azul claro - escudoMza)
+Tipografia: 
+https://www.onlinewebfonts.com/download/1518d63ab9c8d90df3c2e1cec97c3ffa

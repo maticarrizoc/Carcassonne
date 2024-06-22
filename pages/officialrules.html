@@ -1,0 +1,351 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="../images/logocarcassonne.png" type="image/png">
+	<title>Official Rules Carcassone</title>
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<!-- Bootstrap Icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+	<special-header></special-header>
+	<main class="rules d-flex flex-column flex-wrap">
+		<section class="tittle d-flex justify-content-center align-items-center">
+			<img class="logo-rules" src="../images/carcassonne.png">
+		</section>
+		<section class="subtittle text-center">
+			<p>A tile laying game for 2 to 5 players, by Klaus-Jürgen Wrede. Ages 8 and up.</p>
+		</section>
+		<section class="introduction d-flex flex-row">
+			<div class="introduction-div1 text-end">
+				Carcassonne, the world-famous French city, known for its imposing fortifications erected during the
+				Antiquity and the Middle Ages. This fortress, surrounded by magnificent walls, still stands
+				today as one of the most unique French cities.
+			</div>
+			<div class="introduction-div2 text-start">
+				In this game, players must develop the area around Carcassonne. They will place their followers onto
+				roads and into cities, monasteries and fields. Only those who make the most judicious placements
+				will
+				gain the points required to win the game.
+			</div>
+		</section>
+		<section class="section components">
+			<h2>Game components</h2>
+			<ul class="components-list">
+				<li>72 Land tiles (including 1 Start tile with a darker back) showing roads, cities, fields, and
+					monasteries. The 12 River tiles are not part of the basic game but have the same back as the
+					Start tile.
+					<img src="../images/tiles.jpeg">
+				</li>
+				<li>40 followers in 5 colors: <img src="../images/meeples.jpeg">
+					Each follower can become a thief, a knight, a monk, or a farmer.
+					Each player will use one of their followers as a score marker.
+				</li>
+				<li>1 scoreboard: To track the players' scores.
+					<img src="../images/scoreboard.jpeg">
+				</li>
+				<li>1 rulebook and 1 player aid</li>
+			</ul>
+
+		</section>
+		<section class="section overview">
+			<h2>Game overview</h2>
+			<p class="text text-overview">
+				On their turn, players place one tile. This is how roads, cities, monasteries and fields will be
+				created, one tile at a time.
+				To score points, players will need to place followers on these tiles. Points are scored throughout the
+				game and at the end of the game. After the final scoring, the player who scored the most points is the
+				winner.
+			</p>
+		</section>
+		<section class="section setup">
+			<h2>Game setup</h2>
+			<p class="text text-setup">
+				The Start tile is placed face-up in the center of the table. Shuffle the other tiles and place them in
+				various face-down stacks to allow easy access for every player. Place the scoreboard close to the edge
+				of the table to give players enough room to play their tiles in the middle of the table. Each player
+				takes the 8 followers of his color and puts one (called marker thereafter) on the space numbered 0 of
+				the scoreboard (it is the space located in the lower right-hand corner). Each player then keeps their
+				remaining 7 followers in front of themselves: this is their personal supply. Players choose how the
+				first player is designated, or simply let the youngest player begin.
+			</p>
+		</section>
+		<section class="section playing">
+			<h2>Playing the game</h2>
+			<p class="text text-playing">
+				Players take their turn one after the other, starting with the first player and then proceeding
+				clockwise: on their turn, a player must do the following actions and follow the order listed below:
+			</p>
+			<ol class="order-list">
+				<li>1. Draw and place one new Land tile.</li>
+				<li>2. Then, the player can take one (1) of his followers from his supply and put it on the tile he has
+					just placed.</li>
+				<li>3. If by placing a Land tile one or more roads, cities, and/or monasteries are completed, these
+					features are scored immediately.</li>
+			</ol>
+			<p class="text text-playing">
+				The player's turn is now over and the next player takes her turn by following the same rules.
+			</p>
+			<h3>1. Placing Land tiles</h3>
+			<p class="text">
+				At the beginning of their turn, a player must draw one of the face-down Land tiles. He looks at it
+				and shows it to the other players (allowing them to "help" him). Then, he places that tile on the
+				table according to the following rules:
+			</p>
+			<ul class="unorder-list">
+				<li>The new tile (the one with a red border in the examples) must be placed in such a way that
+					at least one of its sides touches one of the previously placed tiles. The new tile cannot
+					only be connected by a corner.</li>
+				<li>New tiles must always continue fields, cities and/or roads.</li>
+			</ul>
+			<div class="div-img">
+				<img src="../images/landtiles1.jpeg">
+				<img src="../images/landtiles2.jpeg">
+			</div>
+			<p class="text">
+				In the unlikely situation where a drawn tile cannot be placed (all players must agree), the player
+				returns the tile to the box (it will no longer be used for this game) and draws another tile.
+			</p>
+			<h3>2. Placing new followers</h3>
+			<p class="text">
+				Once a player has placed her tile, she can put one of her followers
+				on that tile according to these rules:
+			</p>
+			<ul class="unorder-list">
+				<li>A player may only place 1 follower per turn.</li>
+				<li>The player must take the follower from her supply.</li>
+				<li>The player may only put the follower on the tile she has just placed.</li>
+				<li>The player must choose where she will place her follower. As such, the follower can become
+					a…</li>
+				<div class="div-img">
+					<img src="../images/follower11.jpeg">
+					<img src="../images/follower12.jpeg">
+				</div>
+				<li>The player may not place her follower on a road, in a city or in a field if that section is
+					connected to another tile where there already is a follower (no matter which player owns
+					that follower).
+					For example:</li>
+				<div class="div-img">
+					<img src="../images/follower21.jpeg">
+					<img src="../images/follower22.jpeg">
+				</div>
+			</ul>
+			<p class="text">
+				If a player has placed all of his followers, he keeps placing one tile each turn. A player is never
+				allowed to retake one of his followers from a tile. However, a follower is returned to its supply
+				when the road, city or monastery it occupies is scored.
+				Then, the player's turn is over. After, in clockwise order, the next player takes his turn, followed
+				by the next one, etc.
+				IMPORTANT: If, after placing a tile, one or more roads, cities and/or monasteries are completed,
+				they are immediately scored before the next player's turn.
+			</p>
+			<h3>3. Scoring completed roads, cities and monasteries</h3>
+			<h4>A completed road</h4>
+			<p class="text">
+				A road is complete once both ends of the road are connected to a crossroad, a city section, a
+				monastery or the road loops onto itself. There can be any number of road sections between both
+				ends.
+				A player who owns a thief on a completed road scores 1 point per tile used in the completed road
+				(make sure that you only count the number of tiles, since a single tile can be used for more
+				than one section of the road).
+				The player moves his marker a number of spaces on the scoreboard equal to the number of points
+				scored. If you move beyond space 50 of the scoring track, put your marker on its side to
+				indicate that you now have more than 50 points and keep moving your marker as usual on the
+				scoring track.
+			</p>
+			<div class="div-img">
+				<img src="../images/completedroad.jpeg">
+			</div>
+			<h4>A completed city</h4>
+			<p class="text">
+				A city is complete when it is surrounded by walls and there are no gaps in the walls or the
+				city. There can be any number of sections in a city. A player who owns a knight in a completed
+				city scores 2 points per tile in the city (count the tiles and not the sections). Each banner in
+				the scored city also gives the player 2 points.
+			</p>
+			<div class="div-img">
+				<!--<p><span style="color: red;">Red</span> scores 8 points (3-tile city and 1 banner).</p>-->
+				<img src="../images/completedcity1.jpeg">
+				<!--<p><span style="color: red;">Red</span> scores 8 points (4-tile city and no banners).<br>
+						When city sections are on the same tile, it is stilworth only 2 points since it counts as 1 tile.</p>-->
+			</div>
+			<p class="text">
+				What if there are more than one follower on a completed road or city? With some clever tile
+				placements, it is possible to connect road and city sections, resulting in a road with more than
+				one thief or a city with more than one knight.
+				The player with the most thieves or knights scores the totality of the points. In case of a tie,
+				the tied players each score the points.
+			</p>
+			<div class="div-img">
+				<img src="../images/completedcity2.jpeg">
+			</div>
+			</div>
+			<h4>A completed monastery</h4>
+			<p class="text">
+				A monastery is complete when it is surrounded by tiles. The player who owns a monk in a
+				completed monastery scores 9 points. (1 point per tile, including the tile with the monastery).
+			</p>
+			<div class="div-img">
+				<img src="../images/completedmonastery.jpeg">
+			</div>
+			</div>
+			<h5>Followers go back into their player's supply</h5>
+			<div class="textcomponent">
+				After scoring a road, a city or a monastery – and only then – the followers used in the scoring are
+				returned to their
+				player's supply. These returned followers may become thieves, knights, monks and farmers during the
+				following turns.
+				<br>
+				<b>It is possible for a player to place a follower, score a road, a city or a monastery and see this
+					same follower return into their supply on the same turn.</b> The order must always be as
+				follows:
+				<div class="div-img">
+					<img src="../images/followergoback1.jpeg">
+					<ol>
+						<li>Complete a road, a city or a monastery with the new tile.</li>
+						<li>Place a thief, knight or monk.</li>
+						<li>Score the completed road, city or monastery.</li>
+						<li>Return the thief, knight or monk to its supply.</li>
+					</ol>
+					<img src="../images/followergoback2.jpeg">
+				</div>
+			</div>
+			<h5>The fields</h5>
+			<div class="textcomponent">
+				Connected field sections create a larger field. Fields are not scored during the game. Players are
+				allowed to place farmers into a field section, but those are only scored at the end of the game. A
+				farmer remains in the field where it was placed until the end of the game and is never returned to
+				its player's supply! (To show this, lay the farmer on the tile instead of placing it standing up.)
+				Fields are separated from one another by roads, cities and the edge of the board. (This is
+				particularly important during the final scoring!)
+				<br>
+				<div class="div-img">
+					<img src="../images/fields1.jpeg">
+					<img src="../images/fields2.jpeg">
+				</div>
+			</div>
+			</div>
+		</section>
+		<section>
+			<h2>Game End</h2>
+			<p class="text">
+				When a player places the last tile, the game ends after his turn.
+				Then, players proceed with the final scoring.
+			</p>
+		</section>
+		<section>
+			<h2>Final Scoring</h2>
+			<h5>Scoring incomplete cities, roads or monasteries</h5>
+			<p class="text">
+				During the final scoring, incomplete roads, cities or monasteries are scored. A player who has a
+				follower on an incomplete
+				road, city or monastery scores 1 point per tile. For cities, each banner is also worth only 1 point.
+				In case of a tie, use the same rules as for completed features. Once a feature is scored, return the
+				follower to its supply. This should prevent any potential mistakes during the final scoring.
+			</p>
+			<div class="div-img">
+				<img src="../images/scoring.jpeg">
+			</div>
+			<h5>Scoring Farmers</h5>
+			<div class="textcomponent">
+				<ul class="unorder-list">
+					<li>When scoring the farmers, only completed cities are counted.</li>
+					<li>The farmer must be in a field that touches one or more completed
+						cities. The distance between the farmer and the city does not matter.</li>
+					<li>For each city that the field touches, the player with the most
+						farmers in that field scores 3 points. The size of the city does not
+						matter. If some players are tied for the most farmers, they each score
+						the points for that field.</li>
+					<li>A field is only worth points if it touches at least one completed city.
+						More than one field may touch and score the same city. Each field is
+						scored by following the rules below.</li>
+				</ul>
+				<div class="div-img">
+					<img src="../images/scoringfarmers12.jpeg">
+					<img src="../images/scoringfarmers13.jpeg">
+					<img src="../images/scoringfarmers11.jpeg">
+				</div>
+				<p class="text">
+					Once all the fields have been scored, the final scoring and the game are over.
+				</p>
+				<p class="text">
+					The player with the most points is the winner. In case of a tie, play another game to determine the
+					winner!
+				</p>
+				<h5>Scoring Summary</h5>
+				<div class="textcomponent div-img">
+					<img src="../images/scoringsummary.jpeg">
+
+				</div>
+				<h5>More examples for scoring farmers</h5>
+				<div class="textcomponent">
+					Here is another example for scoring farmers (followers placed in fields). The full explanation for
+					scoring farmers can be
+					found on page 4 of the rules, under Scoring farmers.
+					<br>
+					<div class="components">
+						<div class="div-img">
+							<img src="../images/scoringfarmers2.jpeg">
+						</div>
+						<div>
+							<ul class="unorder-list">
+								<li>Field 1: Blue is alone in Field 1. This field touches 2 completed cities (A and B).
+									Blue
+									scores 3 points for each city (no matter the size), for a total of 6 points.</li>
+								<li>Field 2: Red and Blue both have 1 farmer in Field 2. Both players score 3 points per
+									completed city (of which there
+									are three: A, B and C). Thus, Red and Blue both score a total of 9 points for Field
+									2.
+									Note: Cities A and B touch both Field 1 and Field 2. As such, for these cities, Blue
+									gains points in Field 1 and both Red and Blue score points in Field 2. The city in
+									the
+									lower left-hand corner is incomplete and is not worth any points.</li>
+								<li>Field 3: Yellow is the sole player to score Field 3 since he has more followers than
+									Black. There are 4 completed cities touching Field 3, so Yellow scores 12 points.
+									Note about field demarcations: Fields are separated from one another by roads and
+									cities
+									as well as the edge
+									of the board.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<h2>How can more than one follower occupy the same field?</h2>
+				<div class="components">
+					<div class="div-img">
+						<img src="../images/samefield.jpeg">
+					</div>
+					<div>
+						<ul class="unorder-list">
+							<li>Turn 1: Blue puts a farmer in the field.</li>
+							<li>Turn 2: Red places a tile diagonally adjacent to the one that Blue has just placed. Red
+								can
+								put his farmer in the illustrated field since both fields are not connected at that
+								time.
+							</li>
+							<li>Turn 3: The two fields are now combined into a larger field. There are now two farmers
+								in
+								the same field.</li>
+							<li>Using similar tactics, it is possible for two thieves to be on the same road or two
+								knights
+								to be in the same city.</li>
+						</ul>
+					</div>
+				</div>
+		</section>
+	</main>
+	<special-footer></special-footer>
+	<!-- Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+	<!-- App JS -->
+	<script src="../app.js"></script>
+</body>
+
+</html>
