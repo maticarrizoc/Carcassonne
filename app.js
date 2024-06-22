@@ -15,16 +15,16 @@ class SpecialHeader extends HTMLElement {
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav menu ms-auto g-1">
                                 <li class="nav-item">
-                                    <a class="nav-link option-menu" href="/pages/officialrules.html">Official Rules</a>
+                                    <a class="nav-link option-menu" href="../pages/officialrules.html">Official Rules</a>
                                 </li>
                                 <li class="nav-item menu-opcion">
-                                    <a class="nav-link option-menu" href="/pages/tilescounter.html">Tiles Counter</a>
+                                    <a class="nav-link option-menu" href="../pages/tilescounter.html">Tiles Counter</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link option-menu" href="/pages/carcassonnetimer.html">Timers</a>
+                                    <a class="nav-link option-menu" href="../pages/carcassonnetimer.html">Timers</a>
                                 </li>
                                 <li class="nav-item option-tournament">
-                                    <a class="nav-link option-menu" href="/pages/createTournament.html">Tournament</a>
+                                    <a class="nav-link option-menu" href="../pages/createTournament.html">Tournament</a>
                                     <div class="cooming-soon">¡Coming soon!</div>
                                 </li>
                                 <li>
